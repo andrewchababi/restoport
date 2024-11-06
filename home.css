@@ -1,0 +1,66 @@
+/* Reset default padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set body to use a flex container */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #83d65a;
+    font-family: Arial, sans-serif;
+}
+
+/* Center and style the main container */
+main {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style heading and paragraph */
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+p {
+    margin-bottom: 1em;
+    color: #666;
+    font-size: 1.1em;
+}
+
+/* Center and style the logo container */
+#logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+/* Style individual logo images */
+.square-img {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.square-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: Style links to look cleaner */
+nav a {
+    text-decoration: none;
+}
